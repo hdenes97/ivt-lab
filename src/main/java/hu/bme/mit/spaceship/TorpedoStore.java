@@ -10,7 +10,7 @@ import java.util.Random;
 public class TorpedoStore {
 
   // rate of failing to fire torpedos [0.0, 1.0]
-  private double FAILURE_RATE = 0.0; //NOSONAR
+  private double FAILURE_RATE = 0.5; //NOSONAR
 
   private int torpedoCount = 0;
 
